@@ -1,10 +1,10 @@
 
-/* STRING INDEXES */
+/* MAIN */
 
-function indexes ( str: string, substr: string ): number[] {
+const indexes = ( str: string, substr: string ): number[] => {
 
-  const indexes: number[] = [],
-        rangeLength = substr.length;
+  const indexes: number[] = [];
+  const substrLength = substr.length;
 
   let indexFrom = 0;
 
@@ -16,11 +16,11 @@ function indexes ( str: string, substr: string ): number[] {
 
     indexes.push ( index );
 
-    indexFrom = index + rangeLength;
+    indexFrom = index + substrLength;
 
   }
 
-}
+};
 
 /* EXPORT */
 

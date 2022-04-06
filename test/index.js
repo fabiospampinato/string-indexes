@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import {default as indexes} from '../dist';
+import {describe} from 'fava';
+import indexes from '../dist/index.js';
 
-/* STRING INDEXES */
+/* MAIN */
 
 describe ( 'String Indexes', it => {
 

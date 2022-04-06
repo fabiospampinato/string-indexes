@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-const {default: indexes} = require ( '../dist' ),
-      benchmark = require ( 'benchloop' );
+import benchmark from 'benchloop';
+import {indexes} from '../dist/index.js';
 
-/* BENCHMARK */
+/* MAIN */
 
 benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
   iterations: 1000000,
