@@ -2,7 +2,7 @@
   "name": "string-indexes",
   "repository": "github:fabiospampinato/string-indexes",
   "description": "Retrieves all indexes, in non-overlapping ranges, of a substring in a string.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
