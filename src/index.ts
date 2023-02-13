@@ -1,7 +1,7 @@
 
 /* MAIN */
 
-const indexes = ( str: string, substr: string ): number[] => {
+const getIndexes = ( str: string, substr: string ): number[] => {
 
   const indexes: number[] = [];
   const substrLength = substr.length;
@@ -24,4 +24,4 @@ const indexes = ( str: string, substr: string ): number[] => {
 
 /* EXPORT */
 
-export default indexes;
+export default getIndexes;

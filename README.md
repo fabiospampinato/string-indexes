@@ -11,9 +11,9 @@ npm install --save string-indexes
 ## Usage
 
 ```ts
-import indexes from 'string-indexes';
+import getIndexes from 'string-indexes';
 
-indexes ( 'xxxx__xxxx__xxxxx', 'xx' ); // => [0, 2, 6, 8, 12, 14]
+getIndexes ( 'xxxx__xxxx__xxxxx', 'xx' ); // => [0, 2, 6, 8, 12, 14]
 ```
 
 ## License
