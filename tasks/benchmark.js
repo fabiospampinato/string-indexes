@@ -2,11 +2,11 @@
 /* IMPORT */
 
 import benchmark from 'benchloop';
-import {indexes} from '../dist/index.js';
+import indexes from '../dist/index.js';
 
 /* MAIN */
 
-benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
+benchmark.config ({
   iterations: 1_000_000
 });
 
